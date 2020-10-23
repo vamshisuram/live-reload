@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "Vamshi"
+  },
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}

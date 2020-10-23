@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <script type="text/javascript" src="node_modules/socket.io-client/dist/socket.io.js"></script>
+    <script>
+    var socket = io('http://localhost:8080');
+    socket.on('fileChanged', function(){
+        window.location.reload();
+    });
+    </script>
+    <script type="module" src="./client/app.js"></script>
+    <div>Hello world</div>
+    <div>Hello world</div>
+    <div>Hello world</div>
+</body>
+</html>
